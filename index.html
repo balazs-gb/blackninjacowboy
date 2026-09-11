@@ -3,356 +3,313 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Privacy Policy — Black Ninja Cowboy</title>
-<style>
-  :root {
-    --bg: #0f1115;
-    --panel: #171a21;
-    --text: #e6e8eb;
-    --muted: #9aa1ac;
-    --accent: #7c5cff;
-    --border: #2a2e38;
-    --max-width: 800px;
-  }
+<title>Black Ninja Cowboy</title>
+<meta name="description" content="Black Ninja Cowboy — a stealth-western indie game. Available on Microsoft Store, Xbox, Google Play and itch.io.">
 
-  * {
-    box-sizing: border-box;
-  }
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rye&family=Barlow+Condensed:wght@500;600;700&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Jacquard+12&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Jacquarda+Bastarda+9&family=Jersey+10&family=Press+Start+2P&display=swap" rel="stylesheet">
 
-  body {
-    margin: 0;
-    background: var(--bg);
-    color: var(--text);
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    line-height: 1.6;
-  }
 
-  header {
-    background: var(--panel);
-    border-bottom: 1px solid var(--border);
-    padding: 2.5rem 1.5rem;
-    text-align: center;
-  }
+<link rel="stylesheet" href="styles.css">
 
-  header h1 {
-    margin: 0 0 0.4rem 0;
-    font-size: 1.8rem;
-    letter-spacing: -0.02em;
-  }
-
-  header p {
-    margin: 0;
-    color: var(--muted);
-    font-size: 0.95rem;
-  }
-
-  main {
-    max-width: var(--max-width);
-    margin: 0 auto;
-    padding: 2.5rem 1.5rem 4rem;
-  }
-
-  section {
-    margin-bottom: 2.2rem;
-  }
-
-  h2 {
-    font-size: 1.15rem;
-    border-left: 3px solid var(--accent);
-    padding-left: 0.7rem;
-    margin-bottom: 0.7rem;
-  }
-
-  p, li {
-    color: var(--text);
-    font-size: 0.98rem;
-  }
-
-  ul {
-    padding-left: 1.3rem;
-  }
-
-  ul li {
-    margin-bottom: 0.3rem;
-  }
-
-  a {
-    color: var(--accent);
-    text-decoration: none;
-  }
-
-  a:hover {
-    text-decoration: underline;
-  }
-
-  .muted {
-    color: var(--muted);
-    font-size: 0.85rem;
-  }
-
-  footer {
-    text-align: center;
-    padding: 2rem 1.5rem;
-    color: var(--muted);
-    font-size: 0.85rem;
-    border-top: 1px solid var(--border);
-  }
-
-  .contact-box {
-    background: var(--panel);
-    border: 1px solid var(--border);
-    border-radius: 10px;
-    padding: 1.2rem 1.4rem;
-  }
-</style>
+<link rel="icon" type="image/x-icon" href="pictures/icon.svg">
 </head>
 <body>
 
-<header>
-  <h1>Privacy Policy</h1>
-  <p>Black Ninja Cowboy &middot; Effective Date: 20.08.2026 &middot; Last Updated: 20.08.2026</p>
+<!-- =========================================================
+     HERO
+     Replace .hero-art placeholder with your key art:
+       <img src="hero-art.jpg" alt="Black Ninja Cowboy key art">
+     Recommended size: roughly 1000x1250px (portrait) or adjust
+     the aspect-ratio on .hero-art in styles.css to match your art.
+     ========================================================= -->
+<header class="hero">
+  <div class="wrap">
+    <div class="hero-copy">
+      <h1 class="hero-title">Black Ninja Cowboy</h1>
+      <p class="hero-tagline">
+        Bullet-hell, roguelike action shooter in pixel art style.
+        And not serious at all.
+        <!-- Replace this tagline with your own one or two lines. -->
+      </p>
+      <div class="hero-actions">
+        <a class="btn" href="#play">See where to play</a>
+        <a class="link-quiet" href="#about">About the game</a>
+      </div>
+    </div>
+    <div class="hero-art placeholder-box">
+      <img src="pictures/publishing materialfull-15 copy.webp" alt="Black Ninja Cowboy key art">
+    </div>
+  </div>
 </header>
 
-<main>
-
-  <section>
-    <p>
-      This Privacy Policy explains how Black Ninja Cowboy ("Game"), developed by
-      Gábor Balázs ("Developer", "we", "us", or "our"), collects and uses limited
-      gameplay statistics.
-    </p>
-    <p>
-      Black Ninja Cowboy is a free, single-player indie game. The Game does not
-      require an account and does not contain multiplayer functionality, in-game
-      purchases, DLC, loot boxes, or advertising.
-    </p>
-  </section>
-
-  <section>
-    <h2>1. Information We Collect</h2>
-    <p>When you play Black Ninja Cowboy, the Game may send limited gameplay statistics to the Developer.</p>
-    <p>The information collected consists of:</p>
-    <ul>
-      <li>the date and time when the gameplay data is received;</li>
-      <li>a session identifier generated from the session timestamp;</li>
-      <li>the duration of the gameplay session, measured in seconds;</li>
-      <li>the duration of the gameplay session, measured in minutes; and</li>
-      <li>the status of the gameplay session.</li>
+<!-- =========================================================
+     DOWNLOAD / STORES
+     Update the href of each link to your real store page.
+     To add a new storefront later, copy one <li> block.
+     ========================================================= -->
+<section id="play">
+  <div class="wrap">
+    <span class="eyebrow">Available in Early Access</span>
+    <h2>Where to play</h2>
+    <ul class="stores-list">
+      <li>
+        <a class="store-link" href="#">
+          Microsoft Store
+          <!--<span class="store-note">Windows</span>-->
+        </a>
+      </li>
+      <li>
+        <a class="store-link" href="#">
+          Xbox Store
+          <!--<span class="store-note">Console</span>-->
+        </a>
+      </li>
+      <li>
+        <a class="store-link" href="#">
+          Google Play
+          <!--<span class="store-note">Android</span>-->
+        </a>
+      </li>
+      <li>
+        <a class="store-link" href="https://balazs-g.itch.io/black-ninja-cowboy">
+          itch.io
+          <!--<span class="store-note">PC</span>-->
+        </a>
+      </li>
     </ul>
-    <p>The Game does not intentionally collect or transmit:</p>
-    <ul>
-      <li>your name;</li>
-      <li>email address;</li>
-      <li>password;</li>
-      <li>account information;</li>
-      <li>payment information;</li>
-      <li>precise geographical location;</li>
-      <li>IP address;</li>
-      <li>Steam ID or other platform account identifiers;</li>
-      <li>advertising identifiers;</li>
-      <li>device identifiers;</li>
-      <li>contacts;</li>
-      <li>photographs;</li>
-      <li>camera or microphone data;</li>
-      <li>chat messages; or</li>
-      <li>other information intended to directly identify you.</li>
-    </ul>
-    <p>The Game does not require you to create an account or provide personal information in order to play.</p>
-  </section>
+  </div>
+</section>
 
-  <section>
-    <h2>2. Session Identifier</h2>
-    <p>
-      When gameplay statistics are sent, the Game generates a session identifier
-      using the timestamp at which the data is sent.
-    </p>
-    <p>
-      The session identifier is used to distinguish individual gameplay records in
-      the Developer's statistics. It is not a permanent player identifier and is
-      not intentionally used to identify individual players.
-    </p>
-    <p>The Game does not store a permanent player ID or account ID for analytics purposes.</p>
-  </section>
+<!-- =========================================================
+     ABOUT THE GAME
+     Click any screenshot below to open the lightbox — the
+     lightbox markup and script are near the end of the file.
+     ========================================================= -->
+<section id="about">
+  <div class="wrap">
+    <div class="split">
+      <div class="split-text">
+        <span class="eyebrow">About the game</span>
+        <h2>Meet Black Ninja Cowboy:</h2>
+        <p>
+          Fast, chaotic bullet-hell action with roguelike runs — no two dungeons play the same
+          A revenge story wrapped in dark, sarcastic humor and nonsense dialogue
+          Clear every dungeon, defeat every enemy, and uncover who's really behind the clan war
+          Pixel art carnage designed for easy pickup and genuine challenge
+          Random absurd events keep every run unpredictable
+        </p>
+        <p>
+          Guide to the game:
+          You start with the base map, where you can explore the world, enter different dungeons, talk to NPCs, and upgrade your gear. There are two types of dungeons: one with many different enemies, where you earn gold by eliminating them, and another where there is only one boss. You won't get gold there, but by defeating the boss, you get a key to unlock the next dungeon. The gathered gold can be used to upgrade your weapons in different workshops. Each weapon has its own place to upgrade. You start with your revolver, but you can unlock many more weapons by talking to the NPCs. You can track your weapon stats in the journal, as well as your progress in finding all the weapons. You can find collectible items in each dungeon, and you can track your all-time stats at the bounty board near the saloon. 
 
-  <section>
-    <h2>3. Why We Collect This Data</h2>
-    <p>
-      The gameplay statistics are collected solely to understand how players use
-      Black Ninja Cowboy and to improve the Game. This may include analyzing:
-    </p>
-    <ul>
-      <li>how often the Game is launched;</li>
-      <li>how long players play;</li>
-      <li>average session duration;</li>
-      <li>overall player engagement;</li>
-      <li>general gameplay patterns; and</li>
-      <li>the effects of gameplay changes and future updates.</li>
-    </ul>
-    <p>The collected information is not used for advertising, targeted marketing, or selling information about players.</p>
-  </section>
 
-  <section>
-    <h2>4. How the Data Is Transmitted</h2>
-    <p>
-      The Game sends the gameplay statistics to a Google Apps Script Web App
-      operated by the Developer. The Web App receives the gameplay information
-      and records it in a Google Sheets spreadsheet controlled by the Developer.
-    </p>
-    <p>
-      The Game does not intentionally send an IP address or other directly
-      identifying information as part of the gameplay data. The Developer's
-      script is designed to process only the gameplay information described in
-      this Privacy Policy.
-    </p>
-  </section>
 
-  <section>
-    <h2>5. Where the Data Is Stored</h2>
-    <p>
-      The collected gameplay statistics are stored in a Google Sheets
-      spreadsheet. The analytics data is not stored as an analytics database on
-      the player's computer.
-    </p>
-    <p>
-      The Developer may periodically create backup copies of the spreadsheet and
-      store those backups locally on the Developer's computer. The spreadsheet
-      and local backups are not publicly available and are intended to be
-      accessible only to the Developer.
-    </p>
-  </section>
+          (this is my very first video game, it is similar to the Vampire Survivor, but more fun and not serious at all)
 
-  <section>
-    <h2>6. Google Services</h2>
-    <p>
-      Google Apps Script and Google Sheets are third-party services provided by
-      Google and are used to transmit and store the gameplay statistics. Google
-      may process information in connection with providing these services
-      according to Google's applicable terms and privacy policies.
-    </p>
-    <p>
-      The Developer does not use Google services to identify individual players,
-      display advertising to players, or create advertising profiles.
-    </p>
-    <p>For information about Google's processing of information, please refer to Google's applicable privacy documentation.</p>
-  </section>
-
-  <section>
-    <h2>7. Data Sharing</h2>
-    <p>The Developer does not sell, rent, or commercially share the collected gameplay statistics with third parties.</p>
-    <p>The data may be processed by Google as necessary to provide the Google Apps Script and Google Sheets services.</p>
-    <p>The Developer may disclose information if required by applicable law or by a lawful request from a competent authority.</p>
-  </section>
-
-  <section>
-    <h2>8. Data Retention</h2>
-    <p>
-      The Developer intends to retain gameplay statistics only for as long as
-      reasonably necessary to analyze the Game's usage and improve Black Ninja
-      Cowboy. The Developer may periodically review and delete data that is no
-      longer reasonably necessary for these purposes.
-    </p>
-    <p>Local backup copies are subject to the same general retention principles.</p>
-  </section>
-
-  <section>
-    <h2>9. Legal Basis</h2>
-    <p>
-      If the gameplay statistics are considered personal data under applicable
-      data-protection law, the Developer's intended legal basis for processing is
-      legitimate interest, namely the legitimate interest in developing,
-      maintaining, testing, balancing, and improving Black Ninja Cowboy.
-    </p>
-    <p>The Developer limits the information collected to gameplay statistics reasonably necessary for these purposes.</p>
-  </section>
-
-  <section>
-    <h2>10. Your Privacy Rights</h2>
-    <p>
-      Depending on applicable data-protection law and whether the information can
-      be associated with you, you may have rights including:
-    </p>
-    <ul>
-      <li>the right to request access to personal data;</li>
-      <li>the right to request correction of inaccurate personal data;</li>
-      <li>the right to request deletion;</li>
-      <li>the right to object to certain processing;</li>
-      <li>the right to restrict processing; and</li>
-      <li>other rights provided by applicable law.</li>
-    </ul>
-    <p>
-      Because the Game does not intentionally collect information such as your
-      name or email address, the Developer may not be able to identify a
-      particular player or associate a gameplay record with a specific
-      individual.
-    </p>
-  </section>
-
-  <section>
-    <h2>11. Children</h2>
-    <p>Black Ninja Cowboy does not intentionally collect personal information from children.</p>
-    <p>The Game does not require players to create an account or provide personal information.</p>
-  </section>
-
-  <section>
-    <h2>12. Data Security</h2>
-    <p>
-      The Developer takes reasonable measures to protect the collected gameplay
-      statistics against unauthorized access, accidental loss, destruction,
-      alteration, or disclosure.
-    </p>
-    <p>However, no electronic storage or transmission system can be guaranteed to be completely secure.</p>
-  </section>
-
-  <section>
-    <h2>13. Changes to This Privacy Policy</h2>
-    <p>
-      This Privacy Policy may be updated if the Game's data-collection practices
-      change or if an update is necessary to reflect applicable legal
-      requirements.
-    </p>
-    <p>If the Developer begins collecting additional types of information, this Privacy Policy will be updated to describe that collection.</p>
-    <p>The latest version of this Privacy Policy will be made available through the Game's website or distribution page.</p>
-  </section>
-
-  <section>
-    <h2>14. Contact</h2>
-    <div class="contact-box">
-      <p style="margin:0">
-        Developer: Gábor Balázs<br>
-        Email: <a href="mailto:szazeggy@gmail.com">szazeggy@gmail.com</a><br>
-        Website: <a href="https://balazs-g.itch.io/black-ninja-cowboy">balazs-g.itch.io/black-ninja-cowboy</a>
-      </p>
+        </p>
+      </div>
+      <div class="split-media gallery">
+        <img src="pictures/Screenshot 2026-09-03 155823 copy.webp" alt="Screenshot 1">
+        <img src="pictures/Screenshot 2026-09-03 155844 copy.webp" alt="Screenshot 2">
+        <img src="pictures/Screenshot 2026-09-03 162710 copy.webp" alt="Screenshot 3">
+        <img src="pictures/Screenshot 2026-09-03 164522 copy.webp" alt="Screenshot 4">
+        <img src="pictures/Screenshot 2026-09-03 165046 copy.webp" alt="Screenshot 5">
+        <img src="pictures/Screenshot 2026-09-03 165436 copy.webp" alt="Screenshot 6">
+        <img src="pictures/Screenshot_20260904_180843_Black Ninja Cowboy copy.webp" alt="Screenshot 7">
+        <img src="pictures/Screenshot_20260904_181502_Black Ninja Cowboy copy.webp" alt="Screenshot 8">
+      </div>
     </div>
-  </section>
 
-  <section>
-    <h2>15. Supervisory Authority</h2>
-    <p>
-      If you are located in the European Union and believe that your
-      data-protection rights have been violated, you may have the right to lodge
-      a complaint with the data-protection supervisory authority in your country.
-    </p>
-    <p>For the Developer's establishment in Romania, the relevant supervisory authority is:</p>
-    <p>
-      Autoritatea Națională de Supraveghere a Prelucrării Datelor cu Caracter
-      Personal (ANSPDCP)<br>
-      Romania
-    </p>
-  </section>
+    <div class="video-row">
+      <div class="video-slot">
+        <iframe src="https://www.youtube.com/embed/SdOWdLT4Q8U" 
+                title="Black Ninja Cowboy Teaser" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                allowfullscreen></iframe>
+      </div>
+      <div class="video-slot">
+        <iframe src="https://www.youtube.com/embed/nsSAZEVv3R8" 
+                title="Black Ninja Cowboy Teaser" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+</section>
 
-  <p class="muted">
-    Privacy Policy Version: 1.0 &middot; Last Updated: 20.08.2026
-  </p>
+<!-- =========================================================
+     HOW IT'S MADE
+     Same pattern as the section above, mirrored for variety.
+     These screenshots open in the lightbox too.
+     ========================================================= -->
+<section id="how-its-made">
+  <div class="wrap">
+    <div class="split reverse">
+      <div class="split-text">
+        <span class="eyebrow">Behind the scenes</span>
+        <h2>How it's made</h2>
+        <p>
+          This game was made in Gdevelop, a free and open-source NO-CODE game engine. It's a solo development project, and I implemented everything myself: programming, pixel art (own creations and AI creations too), music (AI-generated tracks and Pixabay musics), sound effects, and marketing. I learned a lot during the development process, and I hope to continue improving my skills and making more games in the future.
+        </p>
+      </div>
+      <div class="split-media gallery">
+        <img src="pictures/bts (1) copy.webp" alt="Dev screenshot 1">
+        <img src="pictures/bts (2) copy.webp" alt="Dev screenshot 2">
+        <img src="pictures/bts (3) copy.webp" alt="Dev screenshot 3">
+        <img src="pictures/bts (4) copy.webp" alt="Dev screenshot 4">
+      </div>
+    </div>
+  </div>
+</section>
 
-</main>
+<!-- =========================================================
+     SOCIAL + CONTACT
+     Update the YouTube / TikTok links to your real profiles.
+     The contact form below posts to FormSubmit.co, a free
+     service for static sites — confirm the activation email
+     FormSubmit sends the first time someone submits the form.
+     ========================================================= -->
+<section class="connect">
+  <div class="wrap">
+    <div class="split">
+      <div>
+        <span class="eyebrow">Follow along</span>
+        <h2>Social</h2>
+        <ul class="social-list">
+          <li><a href="https://www.youtube.com/@blackNinjaCowboy">Follow on YouTube</a></li>
+          <li><a href="https://www.tiktok.com/@black.ninja.cowboy">Follow on TikTok</a></li>
+        </ul>
+      </div>
 
-<footer>
-  BLACK NINJA COWBOY<br>
-  &copy; <span id="year">2026</span> Gábor Balázs. All rights reserved.
+      <div>
+        <span class="eyebrow">Get in touch</span>
+        <h2>Contact</h2>
+        <form class="contact-form" action="https://formsubmit.co/szazeggy@gmail.com" method="POST">
+          <input type="hidden" name="_subject" value="Black Ninja Cowboy — website contact form">
+          <!-- Standard honeypot field to block bots without inline display property -->
+          <input type="text" name="_honey" style="display:none">
+
+          <div class="field">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+          <button class="btn" type="submit">Send message</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-foot">
+  <div class="wrap">
+    Black Ninja Cowboy &copy; <span id="year">2026</span> balazs_g.
+  </div>
 </footer>
+
+<!-- =========================================================
+     LIGHTBOX
+     Opens when any .gallery image is clicked. Shows the image
+     large (not full-screen), lets you step through the other
+     images in that same gallery with the arrow buttons or the
+     left/right keys, and closes with the close button, the
+     Escape key, or a click on the dark backdrop.
+     ========================================================= -->
+<div class="lightbox-overlay" id="lightbox">
+  <button type="button" class="lightbox-close" aria-label="Close">&times;</button>
+  <button type="button" class="lightbox-prev" aria-label="Previous image">&#8249;</button>
+  <img src="" alt="">
+  <button type="button" class="lightbox-next" aria-label="Next image">&#8250;</button>
+</div>
 
 <script>
   document.getElementById('year').textContent = new Date().getFullYear();
+
+  (function () {
+    const overlay = document.getElementById('lightbox');
+    const overlayImg = overlay.querySelector('img');
+    const closeBtn = overlay.querySelector('.lightbox-close');
+    const prevBtn = overlay.querySelector('.lightbox-prev');
+    const nextBtn = overlay.querySelector('.lightbox-next');
+
+    let currentGroup = [];
+    let currentIndex = 0;
+
+    function updateImage() {
+      const img = currentGroup[currentIndex];
+      overlayImg.src = img.src;
+      overlayImg.alt = img.alt;
+    }
+
+    function openLightbox(group, index) {
+      currentGroup = group;
+      currentIndex = index;
+      updateImage();
+      overlay.classList.add('is-open');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeLightbox() {
+      overlay.classList.remove('is-open');
+      document.body.style.overflow = '';
+    }
+
+    function showNext() {
+      currentIndex = (currentIndex + 1) % currentGroup.length;
+      updateImage();
+    }
+
+    function showPrev() {
+      currentIndex = (currentIndex - 1 + currentGroup.length) % currentGroup.length;
+      updateImage();
+    }
+
+    document.querySelectorAll('.gallery').forEach((gallery) => {
+      const imgs = Array.from(gallery.querySelectorAll('img'));
+      imgs.forEach((img, idx) => {
+        img.tabIndex = 0;
+        img.setAttribute('role', 'button');
+        img.setAttribute('aria-label', 'Open larger image');
+        img.addEventListener('click', () => openLightbox(imgs, idx));
+        img.addEventListener('keydown', (e) => {
+          if (e.key === 'Enter' || e.key === ' ') {
+            e.preventDefault();
+            openLightbox(imgs, idx);
+          }
+        });
+      });
+    });
+
+    closeBtn.addEventListener('click', closeLightbox);
+    nextBtn.addEventListener('click', showNext);
+    prevBtn.addEventListener('click', showPrev);
+
+    // Click on the dark backdrop (not the image or the buttons) closes it.
+    overlay.addEventListener('click', (e) => {
+      if (e.target === overlay) {
+        closeLightbox();
+      }
+    });
+
+    document.addEventListener('keydown', (e) => {
+      if (!overlay.classList.contains('is-open')) return;
+      if (e.key === 'Escape') closeLightbox();
+      if (e.key === 'ArrowRight') showNext();
+      if (e.key === 'ArrowLeft') showPrev();
+    });
+  })();
 </script>
 
 </body>
